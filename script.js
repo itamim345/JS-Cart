@@ -10,3 +10,13 @@ plusBtn.addEventListener('click', function(){
     qty.innerText = qtyInt;
     total.innerText = 2500*qtyInt;
 })
+
+// Event Listener to Remove product with Calculation
+minusBtn.addEventListener('click', function(){
+    let qtyInt = parseInt(qty.innerText);
+    if(qtyInt > 1){
+        qtyInt --;
+        qty.innerText = qtyInt;
+        total.innerText = 2500*qtyInt;
+    }
+})
