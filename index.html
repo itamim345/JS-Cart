@@ -30,8 +30,8 @@
             <h2 class="text-gray-900 text-3xl font-medium title-font underline">Cart Products</h2>
             <p class="text-red-500 mt-3 font-medium">Press (+) to add item and (-) to remove item.</p>          
             <div class="our-btns my-4">
-                <button class="text-white bg-green-500 border-0 py-2 px-5 text-3xl focus:outline-none hover:bg-green-600 rounded text-lg">+</button>
-                <button class="text-white bg-red-600 border-0 py-2 px-6 text-3xl focus:outline-none hover:bg-red-500 rounded text-lg">-</button>
+                <button class="text-white bg-green-500 border-0 py-2 px-5 text-3xl focus:outline-none hover:bg-green-600 rounded text-lg" id="plus-btn">+</button>
+                <button class="text-white bg-red-600 border-0 py-2 px-6 text-3xl focus:outline-none hover:bg-red-500 rounded text-lg" id="minus-btn">-</button>
             </div>
             <div class="flex justify-between">
                 <div class="div">
@@ -41,8 +41,8 @@
                 </div>
                 <div class="div">
                     <h3 class="text-xl">2500/-</h3>
-                    <h3 class="text-xl">2</h3>
-                    <h3 class="text-xl">5000/-</h3>
+                    <h3 class="text-xl" id="qnty">2</h3>
+                    <h3 class="text-xl"><span id="total">5000</span>/-</h3>
                 </div>
             </div>
             <button class="text-white bg-lime-600 border-0 py-2 px-5 text-xl focus:outline-none hover:bg-lime-500 rounded text-lg my-4">Proceed to checkout</button>
